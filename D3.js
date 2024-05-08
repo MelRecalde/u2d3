@@ -178,7 +178,7 @@ console.log("------ TOTAL MASS ------")
 let crewMass = 0
 let i = 0
 while (i < starWarsCharacters.length) {
-  crewMass = crewMass + starWarsCharacters[i].mass
+  crewMass += starWarsCharacters[i].mass
   i++
 }
 console.log(crewMass)
